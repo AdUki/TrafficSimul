@@ -1,0 +1,19 @@
+>	TRAFFIC FLOW SIMULATION
+>
+>	Author: Simon Mikuda
+>	Program created on 26 nov. 2011
+>	for subject Modeling and Simulation
+>	on STU FIIT in Bratislava
+
+DEPENDANCIES: lua5.1 allegro5
+
+INTSTALATION: Compile program with: make
+
+USE:
+To run program with gui execute: ./transport [behavior] [arrival]
+To run program withou gui with statistics execute: ./run.lua [behavior] [arrival] [time]
+
+PARAMETERS:
+behavior: stupid, race, angry, uniform
+arrival: flood, random
+time: positive integer
