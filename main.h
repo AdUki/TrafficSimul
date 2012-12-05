@@ -1,9 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include "lua.h"
-#include "lauxlib.h"
-#include "lualib.h"
+#include <stdio.h>
+#include <string.h>
+#include <lua.h>
+#include <lauxlib.h>
+#include <lualib.h>
 
 lua_State *L;
 
