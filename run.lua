@@ -8,7 +8,7 @@
 
 dofile("init.lua")
 
-SIMUL_TIME = math.floor(arg[3]) or 8000
+SIMUL_TIME = arg[3] or 8000
 
 print "Begining simulation"
 
