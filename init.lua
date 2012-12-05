@@ -73,7 +73,5 @@ dofile("car.lua")
 dofile("behavior.lua")
 dofile("arrive.lua")
 
-require "remdebug.engine".start()
-
 defaultBehaviour = (arg and _G[arg[1]]) or angry
 defaultArrive = (arg and _G[arg[2]]) or random
