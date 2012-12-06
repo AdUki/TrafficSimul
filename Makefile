@@ -1,7 +1,7 @@
 CC=gcc
 
 # suffix for your libraries, i am using version 5.0.7 dynamic linked
-PLATFORM=./win32
+PLATFORM=win32
 LIB_SUFFIX=-5.0.7-md
 
 # linker options
