@@ -6,7 +6,10 @@
 -- run transport file.
 --
 
+dofile("arrive.lua")
+dofile("behavior.lua")
 dofile("init.lua")
+dofile("car.lua")
 
 SIMUL_TIME = arg[3] or 8000
 

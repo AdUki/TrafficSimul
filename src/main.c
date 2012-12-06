@@ -29,7 +29,7 @@ void execLua(int argc, char **argv)
 
 	error = 
 		/* load lua init file*/
-		luaL_loadfile(L, "init.lua") ||
+		luaL_loadfile(L, "engine.luac") ||
 		/* execute file */
 		lua_pcall(L, 0, 0, 0);
 	

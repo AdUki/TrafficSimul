@@ -68,10 +68,5 @@ ARRIVE_COEFICIENT = 1.3
 AVG_CAR_UTIL = 0
 
 -- Launch user script with arrive() function
--- TODO make that user can paste his own script filename by argument
-dofile("car.lua")
-dofile("behavior.lua")
-dofile("arrive.lua")
-
 defaultBehaviour = (arg and _G[arg[1]]) or angry
 defaultArrive = (arg and _G[arg[2]]) or random
