@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <lua.h>
+#include <luajit.h>
 #include <lauxlib.h>
 #include <lualib.h>
 
