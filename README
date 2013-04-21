@@ -6,6 +6,7 @@
 >	on STU FIIT in Bratislava
 
 DEPENDANCIES: lua5.1 allegro5
+     Windows: MinGW (on Windows precompiled binaries works only with MinGW 4.5.0) + cp.exe in path
 
 INTSTALATION: Compile program with: make
 
